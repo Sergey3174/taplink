@@ -29,7 +29,7 @@
     display: inline-flex;
   flex-direction: column;
   margin-top: 100px;
-  margin-left: 20px;
+  
   width: 70%;
 }
 
@@ -50,7 +50,16 @@
 }
 
 
+.fa-youtube{
+    margin-right: 38%;
 
+}
+.fa-telegram{
+    margin-right: 38%;
+}
+.fa-tiktok{
+    margin-right: 41%;
+}
 
 .btn:hover {
     box-shadow: 1px 1px 25px 10px rgba(122, 255, 222, 0.4);
@@ -76,3 +85,29 @@
     left: 100%;
   }
 
+  @media (max-width: 650px)  {
+    .card {
+        display: block;
+        text-align: center;
+        margin: 0;
+        width: 400px;
+       padding: 0;
+    }
+    .button{
+        width: 60%;
+    }
+
+    .logo{
+       margin-top: 20px;
+    }
+    .fa-youtube{
+        margin-right: 25%;
+    
+    }
+    .fa-telegram{
+        margin-right: 25%;
+    }
+    .fa-tiktok{
+        margin-right: 29%;
+    }
+}
